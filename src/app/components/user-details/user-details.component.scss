@@ -1,0 +1,22 @@
+.userDetails {
+  // height: 100vh;
+  background-image: url(../../../assets/images/user-details-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  .bg-overlay {
+    background-color: rgba(0, 0, 0, 0.612);
+  }
+}
+
+.pic-circle {
+  padding: 25px 0px;
+  margin: auto;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  img {
+    border-radius: 50%;
+  }
+}
+
+

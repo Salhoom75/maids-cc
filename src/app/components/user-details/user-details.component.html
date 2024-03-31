@@ -1,0 +1,30 @@
+<section>
+  <div class="userDetails">
+    <div class="bg-overlay container shadow-lg px-0 mx-0">
+      <div class="d-flex justify-content-between  m-auto">
+        <h3 class="text-white-50 p-3">User Details :</h3>
+        <div class="text-end p-2 ">
+          <span (click)="onClose()" class="pointer  "><i class="fa-solid fa-xmark-circle fa-2x "></i></span>
+      </div>
+      </div>
+
+      <div class="row mx-0">
+        <div class="col-md-6 m-auto text-center py-3">
+          <span class="pic-circle">
+            <img [src]="data.avatar" class="w-25" alt="" />
+          </span>
+
+          <h2 class="text-white pt-3 fs-1">
+            <span class="fs-4 text-white"
+              >{{ data.first_name }} {{ data.last_name }}</span
+            >
+          </h2>
+          <p class="text-white py-2 fs-5">
+            Email : <span class="fs-5 text-white"> {{ data.email }}</span>
+          </p>
+          <span class="text-white">ID: {{ data.id }} </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

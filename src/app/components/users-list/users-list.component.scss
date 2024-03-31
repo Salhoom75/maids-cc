@@ -1,0 +1,47 @@
+.pic-circle {
+  padding: 25px 0px;
+  margin: auto;
+  text-align: center;
+  width: 120px;
+  height: 120px;
+  img {
+    border-radius: 50%;
+  }
+}
+h2 {
+  padding-top: 30px;
+  font-weight: 400;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.card-design {
+  background-color: rgba(0, 0, 0, 0.756);
+}
+.card-design:hover {
+  transition: all 0.5s;
+  background-color: rgba(97, 95, 95, 0.164);
+
+}
+
+.mat-mdc-paginator  {
+  background-color: rgba(84, 83, 83, 0.068);
+  color: white;
+}
+
+.mat-mdc-select {
+  color: rgb(134, 132, 132);
+}
+
+.bg-body-tertiary {
+  background-color: rgba(0, 0, 0, 0.235) !important;
+
+}
+
+.text-bg-light {
+  color: white !important;
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+::placeholder{
+  color: white !important;
+}
